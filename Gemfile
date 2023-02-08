@@ -39,6 +39,7 @@ gem 'rack-attack'
 gem 'down', '~> 5.0'
 # authentication type to fetch and send mail over oauth2.0
 gem 'gmail_xoauth'
+gem 'google-cloud-translate'
 
 ##-- for active storage --##
 gem 'aws-sdk-s3', require: false
