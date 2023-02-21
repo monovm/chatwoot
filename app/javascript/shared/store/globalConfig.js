@@ -45,7 +45,7 @@ const state = {
 export const getters = {
   get: $state => $state,
   isOnChatwootCloud: $state => $state.deploymentEnv === 'cloud',
-  isACustomBrandedInstance: true,
+  isACustomBrandedInstance: $state => $state.installationName !== 'Chatwoot',
 };
 
 export const actions = {};
