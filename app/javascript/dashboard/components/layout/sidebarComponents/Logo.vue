@@ -1,7 +1,7 @@
 <template>
   <div class="logo">
     <router-link :to="dashboardPath" replace>
-      <img :src="source" :alt="name" />
+      <img :src="source" alt="" />
     </router-link>
   </div>
 </template>

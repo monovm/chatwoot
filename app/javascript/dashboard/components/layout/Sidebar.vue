@@ -2,7 +2,7 @@
   <aside class="woot-sidebar">
     <primary-sidebar
       :logo-source="globalConfig.logoThumbnail"
-      :installation-name="`Chat`"
+      :installation-name="globalConfig.installationName"
       :is-a-custom-branded-instance="isACustomBrandedInstance"
       :account-id="accountId"
       :menu-items="primaryMenuItems"

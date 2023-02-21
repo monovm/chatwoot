@@ -34,7 +34,6 @@
 
 <script>
 import TestimonialCard from './TestimonialCard.vue';
-import { getTestimonialContent } from 'dashboard/api/testimonials';
 export default {
   components: {
     TestimonialCard,
@@ -43,21 +42,6 @@ export default {
     return {
       testimonials: [],
     };
-  },
-  beforeMount() {
-    this.fetchTestimonials();
-  },
-  methods: {
-    async fetchTestimonials() {
-      try {
-        const { data } = await getTestimonialContent();
-        this.testimonials = data;
-      } catch (error) {
-        // Ignoring the error as the UI wouldn't break
-      } finally {
-        this.$emit('resize-containers', !!this.testimonials.length);
-      }
-    },
   },
 };
 </script>
