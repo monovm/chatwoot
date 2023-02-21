@@ -1,23 +1,23 @@
 <template>
-<!--  <div-->
-<!--    v-if="globalConfig.brandName && !disableBranding"-->
-<!--    class="px-0 py-3 flex justify-center"-->
-<!--  >-->
-<!--    <a-->
-<!--      :href="brandRedirectURL"-->
-<!--      rel="noreferrer noopener nofollow"-->
-<!--      target="_blank"-->
-<!--      class="branding&#45;&#45;link justify-center"-->
-<!--    >-->
-<!--      <img-->
-<!--        class="branding&#45;&#45;image"-->
-<!--        :alt="globalConfig.brandName"-->
-<!--        :src="globalConfig.logoThumbnail"-->
-<!--      />-->
-<!--      <span>-->
-<!--      </span>-->
-<!--    </a>-->
-<!--  </div>-->
+  <!--  <div-->
+  <!--    v-if="globalConfig.brandName && !disableBranding"-->
+  <!--    class="px-0 py-3 flex justify-center"-->
+  <!--  >-->
+  <!--    <a-->
+  <!--      :href="brandRedirectURL"-->
+  <!--      rel="noreferrer noopener nofollow"-->
+  <!--      target="_blank"-->
+  <!--      class="branding&#45;&#45;link justify-center"-->
+  <!--    >-->
+  <!--      <img-->
+  <!--        class="branding&#45;&#45;image"-->
+  <!--        :alt="globalConfig.brandName"-->
+  <!--        :src="globalConfig.logoThumbnail"-->
+  <!--      />-->
+  <!--      <span>-->
+  <!--      </span>-->
+  <!--    </a>-->
+  <!--  </div>-->
   <div class="p-3" />
 </template>
 

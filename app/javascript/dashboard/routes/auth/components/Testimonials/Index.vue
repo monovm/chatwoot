@@ -1,18 +1,31 @@
 <template>
-  <div v-if="testimonials.length" class="testimonial--section">
+  <div class="testimonial--section">
     <img src="/assets/images/auth/top-left.svg" class="top-left--img" />
     <img src="/assets/images/auth/bottom-right.svg" class="bottom-right--img" />
     <img src="/assets/images/auth/auth--bg.svg" class="center--img" />
     <div class="testimonial--content">
       <div class="testimonial--content-card">
         <testimonial-card
-          v-for="(testimonial, index) in testimonials"
-          :key="testimonial.id"
-          :review-content="testimonial.authorReview"
-          :author-image="testimonial.authorImage"
-          :author-name="testimonial.authorName"
-          :author-designation="testimonial.authorCompany"
-          :class="`testimonial-${index ? 'right' : 'left'}--card`"
+          :review-content="
+            `Chat app is great! Using them for our startup VideoTouch and I'm very satisfied! Great open source alternative of Intercom, Crisp, and other expensive chats for websites. 😎`
+          "
+          :author-image="
+            `https://monovm.com/site-assets/images/users/vijay.jpg`
+          "
+          :author-name="`Andrey Novikov`"
+          :author-designation="`Marketing VideoTouch`"
+          :class="`testimonial-left--card`"
+        />
+        <testimonial-card
+          :review-content="
+            `Chat app has worked very well for our use case. The new features are just added advantages; it was working for us perfectly from the first version itself. It always solves the problem for us perfectly. No complaints.`
+          "
+          :author-image="
+            `https://monovm.com/site-assets/images/users/pavlo.jpg`
+          "
+          :author-name="`Jaime Rivas`"
+          :author-designation="`CEO Synergy Inc.`"
+          :class="`testimonial-right--card`"
         />
       </div>
     </div>

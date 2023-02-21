@@ -8,11 +8,11 @@
       >
         <div class="signup-form--content">
           <div class="signup--hero">
-            <img
-              :src="globalConfig.logo"
-              :alt="globalConfig.installationName"
-              class="hero--logo"
-            />
+            <!--            <img-->
+            <!--              :src="globalConfig.logo"-->
+            <!--              :alt="globalConfig.installationName"-->
+            <!--              class="hero&#45;&#45;logo"-->
+            <!--            />-->
             <h2 class="hero--title">
               {{ $t('REGISTER.TRY_WOOT') }}
             </h2>
